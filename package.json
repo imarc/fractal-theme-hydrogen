@@ -13,6 +13,7 @@
   "author": "Kevin Hamer <kevin@imarc.com>",
   "license": "Apache-2.0",
   "dependencies": {
+    "@frctl/mandelbrot": "^1.7.0",
     "sass": "^1.32.5"
   }
 }

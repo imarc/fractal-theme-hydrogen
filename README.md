@@ -10,10 +10,9 @@ Usage
 After installing Hydrogen (`npm install fractal-theme-hydrogen`), in your project's fractal.config.js:
 
 ```js
-const mandelbrot = require('@frctl/mandelbrot')
-const theme = require('fractal-theme-hydrogen')(mandelbrot)
-
-// ...
+const theme = require('fractal-theme-hydrogen')({
+  // custom options for Mandelbrot here
+})
 
 fractal.web.theme(theme)
 ```
