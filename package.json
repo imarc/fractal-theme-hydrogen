@@ -1,17 +1,18 @@
 {
   "name": "fractal-theme-hydrogen",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Fractal theme built on Mandelbrot",
   "main": "theme.js",
   "scripts": {
     "prepare": "sass src:dist"
   },
-  "files": ["/dist"],
+  "files": [
+    "/dist"
+  ],
   "keywords": [],
   "author": "Kevin Hamer <kevin@imarc.com>",
   "license": "Apache-2.0",
   "dependencies": {
-    "@frctl/fractal": "^1.5.2",
-    "sass": "^1.32.4"
+    "sass": "^1.32.5"
   }
 }
