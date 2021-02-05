@@ -1,6 +1,6 @@
 {
   "name": "fractal-theme-hydrogen",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A Fractal theme built on Mandelbrot",
   "main": "theme.js",
   "scripts": {

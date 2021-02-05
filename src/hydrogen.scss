@@ -159,6 +159,8 @@ b, strong {
     border: 0;
 
     [dir=ltr] &-handle {
+        background-color: var(--background);
+        border-color: var(--drop-shadow);
         border-left: 0;
     }
 }
